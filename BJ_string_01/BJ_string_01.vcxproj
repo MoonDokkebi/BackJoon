@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{50e1c34f-dd91-4f18-ae56-20aeee46c8a9}</ProjectGuid>
-    <RootNamespace>BJwhile2</RootNamespace>
+    <ProjectGuid>{89597ef9-edbc-4684-9904-61625e0984f3}</ProjectGuid>
+    <RootNamespace>BJstring01</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>BJ_while_3</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
