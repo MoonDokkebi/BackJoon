@@ -107,6 +107,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Baejoon_math_2775", "Baejoo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Baekjoon_math_2839", "Baekjoon_math_2839\Baekjoon_math_2839.vcxproj", "{2F639575-A169-41C1-AA15-E6CD384CD026}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Baekjoon_math_1011", "Baekjoon_math_1011\Baekjoon_math_1011.vcxproj", "{7A06BEE8-A918-4344-9116-99B9137CAF1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -531,6 +533,14 @@ Global
 		{2F639575-A169-41C1-AA15-E6CD384CD026}.Release|x64.Build.0 = Release|x64
 		{2F639575-A169-41C1-AA15-E6CD384CD026}.Release|x86.ActiveCfg = Release|Win32
 		{2F639575-A169-41C1-AA15-E6CD384CD026}.Release|x86.Build.0 = Release|Win32
+		{7A06BEE8-A918-4344-9116-99B9137CAF1E}.Debug|x64.ActiveCfg = Debug|x64
+		{7A06BEE8-A918-4344-9116-99B9137CAF1E}.Debug|x64.Build.0 = Debug|x64
+		{7A06BEE8-A918-4344-9116-99B9137CAF1E}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A06BEE8-A918-4344-9116-99B9137CAF1E}.Debug|x86.Build.0 = Debug|Win32
+		{7A06BEE8-A918-4344-9116-99B9137CAF1E}.Release|x64.ActiveCfg = Release|x64
+		{7A06BEE8-A918-4344-9116-99B9137CAF1E}.Release|x64.Build.0 = Release|x64
+		{7A06BEE8-A918-4344-9116-99B9137CAF1E}.Release|x86.ActiveCfg = Release|Win32
+		{7A06BEE8-A918-4344-9116-99B9137CAF1E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
