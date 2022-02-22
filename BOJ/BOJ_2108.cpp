@@ -6,14 +6,14 @@ using namespace std;
 
 int main(void) {
     ios_base::sync_with_stdio(false); cin.tie(NULL);
-    int N, temp, mean, mode = 0, min, max = 0;
+    int N, temp, sum, average, mode = 0, min, max = 0;
     bool isSecond = false;
     cin>>N;
     vector<int> vec(N);
     vector<int> vec2(8001, 0);
     for(int i = 0; i < N; i ++){
         cin>>vec[i];
-        mean += vec[i];
+        sum += vec[i];
         temp = (vec[i] <= 0) ? abs(vec[i]) : vec[i] + 4000;
         vec2[temp]++;
         if(vec2[temp] > max)
@@ -30,8 +30,9 @@ int main(void) {
             isSecond = true;
         }
     }
-
-    cout<<round(mean/(double)N)<<'\n';
+    average = round(sum/(double)N);
+    if(-1 < average < 0) average=0;
+    cout<< average<<"\n";
     cout<<vec[round(N/2)]<<'\n';
     cout<<mode<<'\n';
     min = vec[0];
