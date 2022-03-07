@@ -8,8 +8,7 @@ int main(){
     double ratio;
     cin >> D >> H >> W;
     ratio = sqrt((double)(D*D) / (H*H + W*W));
-    // 52*52=(9*9*16*16)*ratio
-    //ratio=   (9*9 * 16*16)/ (52*52)
+
 
     cout<< (int)(H*ratio) << " " << (int)(W*ratio);
 }
